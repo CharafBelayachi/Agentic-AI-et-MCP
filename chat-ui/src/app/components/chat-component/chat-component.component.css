@@ -1,0 +1,25 @@
+.bg-teal {
+  background-color: #9e5226 !important;
+}
+
+.btn-teal {
+  background-color: #9e5226;
+  color: white;
+  border: none;
+}
+.btn-teal:hover {
+  background-color: #006666;
+}
+
+.bg-soft {
+  background-color: #f8f9fa;
+}
+
+.typing-indicator .animate-blink {
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0.2; }
+  50% {opacity:1;}
+}
